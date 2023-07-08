@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#profile{
+    display: flex;
+    flex-direction: column;
+    background-color: #323444;
+    background-size: cover;
+    height: 1020px;
+    box-sizing: border-box;
+    padding-top: 5%;
+    padding: 20px;
+}
+#btn{
+    margin-top: 30px;
+    padding: 10px 35px;
+    background-color: transparent;
+    border: none;
+    color: #0E8388;
+    outline: none;
+    transition: .6 ease;
+}
+#btn a{
+    text-decoration: none;
+    color: #2C3333;
+}
+#btn:hover{
+    cursor: pointer;
+    background-color: #2C3333;
+    color: #0E8388;
+    box-shadow: 0 0 10px #0E8388, 0 0 10px #0E8388, 0 0 15px #0E8388;
+    font-weight: bold;
+}
+.prof-headings{
+    text-align: center;
+    font-size: 3rem;
+    color: #0E8388;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+.pic{
+    display: flex;
+}
+.pic img{
+    width: 30%;
+}
+.biodata{
+    padding-top: 60px;
+    padding-left: 30px;
+    color: aliceblue;
+}
+.qoutes{
+    padding-top: 40px;
+}
+.qoutes h3{
+    padding-top: 20px;
+    color: #0E8388;
+}
+.qoutes p{
+    padding: 10px;
+}

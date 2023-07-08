@@ -1,0 +1,20 @@
+/*----------home-----------*/
+#home{
+    height: 820px;
+}
+.headings .headings_about 
+.headings_ecert .headings_contacts{
+    font-size: 1rem;
+}
+
+
+/*---------about----------*/
+.pic{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.pic img{
+    box-shadow: 30px 30px 60px rgba(0, 0, 0, 50%);
+    width: 100%;
+    height: 100%;
+}
